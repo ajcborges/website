@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Alfredo Cedeno',
   tagline: 'Hosting your own cloud infrastructure is cool',
-  url: 'https://ajcborges.github.io',
+  url: 'https://alfredo.cedeno.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
