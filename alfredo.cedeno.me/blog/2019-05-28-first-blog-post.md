@@ -2,10 +2,10 @@
 slug: first-blog-post
 title: First Blog Post
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
+  name: Alfredo Cedeno
+  title: Security Cloud (GCP) Engineer
+  url: https://github.com/ajcborges
+  image_url: https://github.com/ajcborges.png
 tags: [hola, docusaurus]
 ---
 
