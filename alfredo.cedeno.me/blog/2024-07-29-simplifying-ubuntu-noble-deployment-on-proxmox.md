@@ -9,13 +9,11 @@ authors:
 tags: [github, codespark, automation, proxmox, packer]
 ---
 
-#### Introduction
-
-I am excited to announce the official release of **"Packer-Ubuntu-Proxmox-VM" 1.0.0**! 
+I am excited to announce the official release of **"Packer-Ubuntu-Proxmox-VM" 1.0.0**!
 
 This release is designed to streamline and automate the deployment of Ubuntu 24.04 as a Proxmox VM template with full Cloud-Init integration. Whether you are a seasoned IT professional or a DevOps enthusiast, this tool will significantly simplify your VM creation process, saving you time and effort.
 
-#### Why ?
+#### Why this release ?
 
 Deploying virtual machines in Proxmox, especially with the specific needs for provisioning and configuration, can be a complex and time-consuming task. This release aims to tackle these challenges head-on by automating the entire process. With Cloud-Init integration, the template ensures that your VMs are ready to use right from the start, with all necessary configurations applied seamlessly.
 
