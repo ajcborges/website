@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite_cedeno_me=self.webpackChunksite_cedeno_me||[]).push([[441],{996:e=>{e.exports=JSON.parse('{"label":"packer","permalink":"/blog/tags/packer","allTagsPath":"/blog/tags","count":1}')}}]);

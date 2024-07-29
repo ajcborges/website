@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite_cedeno_me=self.webpackChunksite_cedeno_me||[]).push([[483],{9882:e=>{e.exports=JSON.parse('{"label":"codespark","permalink":"/blog/tags/codespark","allTagsPath":"/blog/tags","count":1}')}}]);

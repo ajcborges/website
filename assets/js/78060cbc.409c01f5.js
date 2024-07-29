@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite_cedeno_me=self.webpackChunksite_cedeno_me||[]).push([[652],{9724:e=>{e.exports=JSON.parse('{"label":"github","permalink":"/blog/tags/github","allTagsPath":"/blog/tags","count":1}')}}]);
