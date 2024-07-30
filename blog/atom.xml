@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alfredo.cedeno.me/blog</id>
     <title>Alfredo Cedeno Blog</title>
-    <updated>2024-07-29T00:00:00.000Z</updated>
+    <updated>2024-08-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alfredo.cedeno.me/blog"/>
     <subtitle>Alfredo Cedeno Blog</subtitle>
     <icon>https://alfredo.cedeno.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Automating Proxmox VM Deployment with Terraform]]></title>
+        <id>https://alfredo.cedeno.me/blog/automating-proxmox-vm-deployment-with-terraform</id>
+        <link href="https://alfredo.cedeno.me/blog/automating-proxmox-vm-deployment-with-terraform"/>
+        <updated>2024-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Deploying virtual machines (VMs) efficiently is crucial for modern IT infrastructure management. In this blog post, we'll explore how to automate the deployment of VMs using a Proxmox VM template and Terraform, leveraging Cloud-Init for initial configuration.]]></summary>
+        <content type="html"><![CDATA[<p>Deploying virtual machines (VMs) efficiently is crucial for modern IT infrastructure management. In this blog post, we'll explore how to automate the deployment of VMs using a Proxmox VM template and Terraform, leveraging Cloud-Init for initial configuration.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="code-structure">Code Structure<a href="#code-structure" class="hash-link" aria-label="Direct link to Code Structure" title="Direct link to Code Structure">​</a></h3><p>Our Terraform configuration is organized as follows:</p><ul><li><code>main.tf</code> : The primary configuration file for provisioning the VM.</li><li><code>proxmox-vm.backend</code> : Defines the backend for storing the Terraform state.</li><li><code>variables.tf</code> : Specifies input variables required for the configuration.</li><li><code>version.tf</code> : Specifies required versions of Terraform and providers.</li><li><code>full-clone.tfvars</code> : Contains values for cloning the VM from a template.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features">​</a></h3><ol><li><p><strong>Automated VM Provisioning</strong> : Effortlessly deploy virtual machines using a predefined Proxmox VM template, streamlining the setup process and reducing manual intervention.</p></li><li><p><strong>Cloud-Init Integration</strong> : Utilize Cloud-Init for seamless initialization of VMs, allowing for dynamic configuration based on predefined variables such as IP addresses, SSH keys, and more.</p></li><li><p><strong>Modular Configuration</strong> : Organized Terraform code structure, including separate files for main configuration, variables, and credentials, promotes modularity and easy management.</p></li><li><p><strong>Version Control</strong> : Track and manage infrastructure changes with versioned Terraform configurations, ensuring consistency across deployments.</p></li><li><p><strong>Secure Credential Management</strong> : Keep sensitive information secure with .auto.tfvars files, allowing for safe storage and use of API tokens and other credentials.</p></li><li><p><strong>Scalability and Flexibility</strong> : Easily scale your infrastructure by adjusting configuration variables, supporting a wide range of VM specifications and settings.</p></li><li><p><strong>Proxmox API Utilization</strong> : Leverage the Proxmox API for efficient VM management, providing a robust and flexible interface for interacting with your virtual environment.</p></li></ol><h3 class="anchor anchorWithStickyNavbar_LWe7" id="real-world-applications">Real-World Applications<a href="#real-world-applications" class="hash-link" aria-label="Direct link to Real-World Applications" title="Direct link to Real-World Applications">​</a></h3><p>With this release, you can:</p><ul><li><strong>Standardize Development Environments</strong>: Quickly deploy consistent development environments for your team.</li><li><strong>Simplify Testing</strong>: Easily spin up and tear down testing environments, ensuring your software works across different configurations.</li><li><strong>Enhance CI/CD Pipelines</strong>: Integrate automated VM deployment into your CI/CD pipelines for seamless testing and deployment.</li></ul><h3 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h3><p>This code is part of my mission to simplify deployment on Proxmox for my Homelab. I am  excited to see how this tool will benefit the community and enhance your workflows. Download the repository, give it a try, and let us know how it transforms your VM deployment process.</p><p>Explore the repository: <a href="https://github.com/ajcborges/codespark" target="_blank" rel="noopener noreferrer">codespark on GitHub</a></p><p>Thank you for your support and happy deploying!</p><hr><p>Feel free to reach out with any questions or feedback. I look forward to hearing from you!</p>]]></content>
+        <author>
+            <name>Alfredo Cedeno</name>
+            <uri>https://github.com/ajcborges/codespark</uri>
+        </author>
+        <category label="github" term="github"/>
+        <category label="codespark" term="codespark"/>
+        <category label="automation" term="automation"/>
+        <category label="proxmox" term="proxmox"/>
+        <category label="terraform" term="terraform"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Simplifying Ubuntu 24.04 Deployment on Proxmox]]></title>
         <id>https://alfredo.cedeno.me/blog/simplifying-ubuntu-noble-deployment-on-proxmox</id>
