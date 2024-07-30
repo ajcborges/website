@@ -46,7 +46,7 @@ I believe in the power of open source and community collaboration. Join our grow
 
 This release  marks a significant milestone in my mission to simplify VM deployment on Proxmox. I am  excited to see how this tool will benefit the community and enhance your workflows. Download the repository, give it a try, and let us know how it transforms your VM deployment process.
 
-Explore the repository: [codespark on GitHub](https://github.com/yourusername/codespark)
+Explore the repository: [codespark on GitHub](https://github.com/ajcborges/codespark)
 
 Thank you for your support and happy deploying!
 
