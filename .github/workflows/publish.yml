@@ -40,4 +40,4 @@ jobs:
           source-folder: alfredo.cedeno.me 
           git-user: ajcborges 
           git-password: ${{ secrets.GITHUB_TOKEN }} 
-          #deployment-branch: gh-pages
+          deployment-branch: gh-pages
