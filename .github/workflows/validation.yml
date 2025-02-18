@@ -1,10 +1,11 @@
 name: ci-site
 
 on:
-  push:
-    branches:
-      - main
   pull_request:
+    branches:
+      - gh-pages
+    paths:
+      - alfredo.cedeno.me/**
 
 jobs:
   build:
