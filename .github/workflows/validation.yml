@@ -1,0 +1,32 @@
+name: ci-site
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
+
+      - name: Lint code
+        run: yarn --cwd ./alfredo.cedeno.me lint
+
+      - name: Run build
+        run: yarn --cwd ./alfredo.cedeno.me build
