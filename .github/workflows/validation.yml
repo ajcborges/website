@@ -23,7 +23,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
+        run: yarn --cwd ./alfredo.cedeno.me install
 
       - name: Lint code
         run: yarn --cwd ./alfredo.cedeno.me lint
