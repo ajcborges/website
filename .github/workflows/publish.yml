@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           set -e
-          yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
+          yarn --cwd ./alfredo.cedeno.me install 
           yarn --cwd ./alfredo.cedeno.me/ build
 
       - name: Deploy to GitHub Pages Docusaurus
