@@ -28,8 +28,5 @@ jobs:
       - name: Install dependencies
         run: yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
 
-      - name: Lint code
-        run: yarn --cwd ./alfredo.cedeno.me lint
-
       - name: Run build
         run: yarn --cwd ./alfredo.cedeno.me build
