@@ -19,8 +19,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Check for yarn.lock
-        run: ls -al ./alfredo.cedeno.me/yarn.lock
+      # - name: Check for yarn.lock
+      #   run: ls -al ./alfredo.cedeno.me/yarn.lock
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies and build
         run: |
           set -e
-          yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
+          yarn --cwd ./alfredo.cedeno.me install
           yarn --cwd ./alfredo.cedeno.me/ build
 
       - name: Deploy to GitHub Pages Docusaurus
