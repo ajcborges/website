@@ -16,8 +16,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-    #   - name: Check for yarn.lock
-    #     run: ls -al ./alfredo.cedeno.me/yarn.lock
+      - name: Check for yarn.lock
+        run: ls -al ./alfredo.cedeno.me/yarn.lock
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -26,7 +26,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn --cwd ./alfredo.cedeno.me install
+        run: yarn --cwd ./alfredo.cedeno.me install --frozen-lockfile
 
       - name: Lint code
         run: yarn --cwd ./alfredo.cedeno.me lint
