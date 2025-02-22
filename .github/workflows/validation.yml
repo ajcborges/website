@@ -21,7 +21,7 @@ jobs:
         run: ls -al ./alfredo.cedeno.me/yarn.lock
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           #cache: 'yarn'

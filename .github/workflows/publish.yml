@@ -1,43 +1,54 @@
-name: publish-site
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
     paths:
       - alfredo.cedeno.me/**
 
 jobs:
-  publish:
+  build:
+    name: Build Docusaurus
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      deployments: write
-      checks: write
-      pull-requests: write
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      # - name: Check for yarn.lock
-      #   run: ls -al ./alfredo.cedeno.me/yarn.lock
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
         with:
           node-version: 18
-          #cache: 'yarn'
+          cache: yarn
 
-      - name: Install dependencies and build
-        run: |
-          set -e
-          yarn --cwd ./alfredo.cedeno.me install
-          yarn --cwd ./alfredo.cedeno.me/ build
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
 
-      - name: Deploy to GitHub Pages Docusaurus
-        uses: redkubes/docusaurus-deploy-action@master
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          source-folder: alfredo.cedeno.me 
-          git-user: ajcborges 
-          git-password: ${{ secrets.GITHUB_TOKEN }} 
-          #deployment-branch: gh-pages
+          path: build
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
