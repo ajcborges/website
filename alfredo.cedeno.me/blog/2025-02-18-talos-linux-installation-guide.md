@@ -2,6 +2,10 @@
 title: Talos Linux Installation Guide
 authors: ajcborges
 tags: [github, kubernetes, automation, talos]
+keywords:
+    - kubernetes
+    - Talos Linux
+    - Homelab
 slug: talos-linux-installation-guide
 ---
 ## Overview
