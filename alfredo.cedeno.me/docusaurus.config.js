@@ -49,7 +49,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/undraw_post-online_cjn9.svg',
         navbar: {
           title: 'Alfredo Cedeno',
           logo: {

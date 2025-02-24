@@ -6,6 +6,7 @@ keywords:
     - kubernetes
     - Talos Linux
     - Homelab
+image: ../static/img/about_me_adobe_express.svg
 slug: talos-linux-installation-guide
 ---
 ## Overview
