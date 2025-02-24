@@ -1,15 +1,13 @@
 ---
-slug: automating-proxmox-vm-deployment-with-terraform
 title: Automating Proxmox VM Deployment with Terraform
-authors:
-  name: Alfredo Cedeno
-  title: Security Cloud (GCP) Engineer
-  url: https://github.com/ajcborges/codespark
-  image_url: https://github.com/ajcborges.png
+authors: ajcborges
 tags: [github, codespark, automation, proxmox, terraform]
+slug: automating-proxmox-vm-deployment-with-terraform
 ---
 
 Deploying virtual machines (VMs) efficiently is crucial for modern IT infrastructure management. In this blog post, we'll explore how to automate the deployment of VMs using a Proxmox VM template and Terraform, leveraging Cloud-Init for initial configuration.
+
+<!-- truncate -->
 
 ### Code Structure
 

@@ -1,0 +1,39 @@
+proxmox:
+  label: proxmox
+  permalink: /proxmox
+  description: proxmox tag description
+
+automation:
+  label: automation
+  permalink: /automation
+  description: automation tag description
+
+codespark:
+  label: codespark
+  permalink: /codespark
+  description: codespark tag description
+
+github:
+  label: github
+  permalink: /github
+  description: GitHub Control Version
+
+packer:
+  label: packer
+  permalink: /packer
+  description: packer tag description
+
+terraform:
+  label: terraform
+  permalink: /terraform
+  description: terraform tag description
+
+kubernetes:
+  label: kubernetes
+  permalink: /kubernetes
+  description: kubernetes tag description
+
+talos:
+  label: talos
+  permalink: /talos
+  description: talos tag description

@@ -1,17 +1,15 @@
 ---
-slug: simplifying-ubuntu-noble-deployment-on-proxmox
 title: Simplifying Ubuntu 24.04 Deployment on Proxmox
-authors:
-  name: Alfredo Cedeno
-  title: Security Cloud (GCP) Engineer
-  url: https://github.com/ajcborges/codespark
-  image_url: https://github.com/ajcborges.png
+authors: ajcborges
 tags: [github, codespark, automation, proxmox, packer]
+slug: simplifying-ubuntu-noble-deployment-on-proxmox
 ---
 
 I am excited to announce the official release of **"Packer-Ubuntu-Proxmox-VM" 1.0.0**!
 
 This release is designed to streamline and automate the deployment of Ubuntu 24.04 as a Proxmox VM template with full Cloud-Init integration. Whether you are a seasoned IT professional or a DevOps enthusiast, this tool will significantly simplify your VM creation process, saving you time and effort.
+
+<!-- truncate -->
 
 ### Why this release ?
 

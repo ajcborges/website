@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Professional focus',
-    Svg: require('@site/static/img/focus-add-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/undraw_dev-productivity_5wps.svg').default,
     description: (
       <>
         Designing and implementing creative solutions in Google Cloud Platform (GCP) 
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Driven by',
-    Svg: require('@site/static/img/dev-to-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/undraw_programming_65t2.svg').default,
     description: (
       <>
         Taking pride in my ability to plan and maintain various security settings, 
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'About Me',
-    Svg: require('@site/static/img/user-svgrepo-com.svg').default,
+    Svg: require('@site/static/img/undraw_male-avatar_zkzx.svg').default,
     //Svg: require('@site/static/img/about_me.jpeg').default,
     description: (
       <>
