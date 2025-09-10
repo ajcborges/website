@@ -10,7 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Alfredo Cedeno',
+  //title: 'Alfredo Cedeno',
+  title: 'Alfredo Cedeno Borges',
   tagline: 'Cloud Security Engineer - Melbourne, Australia',
   favicon: 'img/favicon.ico',
 
