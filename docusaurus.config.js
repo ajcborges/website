@@ -11,7 +11,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   //title: 'Alfredo Cedeno',
-  title: 'Alfredo Cedeno Borges',
   tagline: 'Cloud Security Engineer - Melbourne, Australia',
   favicon: 'img/favicon.ico',
 
@@ -56,7 +55,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ajcborges/website/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +66,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            '"https://github.com/ajcborges/website/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -86,7 +85,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Alfredo Cedeno',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -98,9 +97,15 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'About Me',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ajcborges',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,51 +114,69 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
+          /**{
             title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+              items: [
+                {
+                  label: 'Tutorial',
+                  to: '/docs/intro',
+                },
+              ],
+            },*/
+            {
+              title: 'Blogs',
+              items: [
+                {
+                  label: 'Blog',
+                  to: '/blog',
+                },
+                {
+                  label: 'Medium',
+                  href: 'https://ajcborges.medium.com/',
+                },
+              ],
+            },
           {
             title: 'Community',
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/users/11536667/alfredo-cedeno?tab=profile',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/alfredocedeno/',
               },
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/ajcborges',
               },
             ],
           },
           {
             title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
+              items: [
+                {
+                  label: 'My Github',
+                  href: 'https://github.com/ajcborges',
+                },
+                {
+                  label: 'This website (as code)',
+                  href: 'https://github.com/ajcborges/website',
+                },
+                {
+                  label: 'Professional Development Plan (Private)',
+                  href: 'https://github.com/ajcborges/pdp/projects/1',
+                },
+              ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Alfredo Cedeno. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ["latex"],
       },
     }),
 };
