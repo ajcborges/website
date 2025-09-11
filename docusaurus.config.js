@@ -81,31 +81,32 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: "img/website-card.png",
       navbar: {
-        title: 'Alfredo Cedeno',
+        title: "My Site",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/logo.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "About Me",
+          },
+          { to: "/blog", label: "Blog", position: "left" },
+          {
+            href: "https://github.com/ajcborges",
+            position: "right",
+            className: "header--github-link",
+            "aria-label": "GitHub repository",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'About Me',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/ajcborges',
-            label: 'GitHub',
-            position: 'right',
+            className: "navbar__youtube navbar__icon",
+            "aria-label": "YouTube channel",
+            position: "right",
+            href: "https://www.youtube.com/c/ajcborges",
           },
         ],
       },
