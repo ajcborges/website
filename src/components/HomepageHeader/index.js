@@ -68,7 +68,7 @@ export default function HomepageHeader() {
           >
             <img
               alt={"alfredo cedeno"}
-              src={useBaseUrl("/img/alfredo.jpg")}
+              src={useBaseUrl("/img/avatar.jpg")}
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",
@@ -162,16 +162,6 @@ export default function HomepageHeader() {
                   style={{ padding: "1rem" }}
                 >
                   <LinkedInIcon fontSize={"large"} />
-                </Link>
-              </Grid>
-
-              <Grid item>
-                <Link
-                  className="button"
-                  to="https://scholar.google.com/citations?user=QcamSPwAAAAJ&hl=en"
-                  style={{ padding: "1rem" }}
-                >
-                  <SchoolIcon fontSize={"large"} />
                 </Link>
               </Grid>
             </Grid>
