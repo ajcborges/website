@@ -186,7 +186,7 @@ export default function HomepageHeader() {
               <Link
                 className="button button--secondary button--lg"
                 //to="/docs/about_me/intro"
-                to="/docs/intro"
+                to="/docs/about_me/intro"
               >
                 About me
               </Link>
