@@ -99,8 +99,7 @@ const config = {
         indexDocs: true,
         indexBlog: true,
         indexPages: true,
-        language: 'en',
-        highlightSearchTermsOnTargetPage: true, // replaces enableHighlight
+        language: 'en',      
       },
     ],
   ],
