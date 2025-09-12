@@ -87,7 +87,7 @@ export default function HomepageHeader() {
               <AnimatedSvg />
             </div> */}
           </Grid>
-          {/* <svg
+          <svg
             width="1000"
             height="1300"
             xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ export default function HomepageHeader() {
                 ],
               })}
             />
-          </svg> */}
+          </svg>
           <Grid
             item
             xs={12}
