@@ -48,6 +48,11 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          filename: "sitemap.xml",
+        },
         docs: {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
@@ -106,38 +111,29 @@ const config = {
             className: "navbar__youtube navbar__icon",
             "aria-label": "YouTube channel",
             position: "right",
-            href: "https://www.youtube.com/c/ajcborges",
+            href: "https://www.youtube.com/@ajcborges",
           },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          /**{
-            title: 'Docs',
+          {
+            title: 'About Me',
               items: [
                 {
-                  label: 'Tutorial',
-                  to: '/docs/intro',
-                },
-              ],
-            },*/
-            {
-              title: 'Blogs',
-              items: [
-                {
-                  label: 'Blog',
-                  to: '/blog',
-                },
-                {
-                  label: 'Medium',
-                  href: 'https://ajcborges.medium.com/',
+                  label: 'My Journey',
+                  to: '/docs/about_me/intro',
                 },
               ],
             },
           {
             title: 'Community',
             items: [
+              {
+                  label: 'Medium',
+                  href: 'https://ajcborges.medium.com/',
+              },
               {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/users/11536667/alfredo-cedeno?tab=profile',
@@ -152,9 +148,13 @@ const config = {
               },
             ],
           },
-          {
+            {
             title: 'More',
               items: [
+                {
+                  label: "Blog",
+                to: "/blog",
+                },
                 {
                   label: 'My Github',
                   href: 'https://github.com/ajcborges',
