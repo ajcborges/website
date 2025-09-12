@@ -81,28 +81,28 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-content-blog',
-      {
-        path: 'blog',
-        routeBasePath: 'blog',
-        showReadingTime: true,
-        // sidebarPath: './sidebarDevops.js',
-        // ... other options
-      },
-    ],
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        // Options for local search
-        indexDocs: true,
-        indexBlog: true,
-        indexPages: true,
-        language: 'en',      
-      },
-    ],
-  ],
+  // plugins: [
+  //   [
+  //     '@docusaurus/plugin-content-blog',
+  //     {
+  //       path: 'blog',
+  //       routeBasePath: 'blog',
+  //       showReadingTime: true,
+  //       // sidebarPath: './sidebarDevops.js',
+  //       // ... other options
+  //     },
+  //   ],
+  //   [
+  //     require.resolve('@cmfcmf/docusaurus-search-local'),
+  //     {
+  //       // Options for local search
+  //       indexDocs: true,
+  //       indexBlog: true,
+  //       indexPages: true,
+  //       language: 'en',      
+  //     },
+  //   ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
