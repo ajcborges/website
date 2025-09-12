@@ -83,11 +83,11 @@ const config = {
   ],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
+      '@docusaurus/plugin-content-blog',
       {
-        id: 'devops',
-        path: 'devops',
-        routeBasePath: 'devops',
+        path: 'blog',
+        routeBasePath: 'blog',
+        showReadingTime: true,
         // sidebarPath: './sidebarDevops.js',
         // ... other options
       },
