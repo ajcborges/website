@@ -103,7 +103,7 @@ const config = {
         highlightSearchTermsOnTargetPage: true, // replaces enableHighlight
       },
     ],
-  ]
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
