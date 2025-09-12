@@ -83,21 +83,15 @@ const config = {
   ],
   plugins: [
     [
-      '@docusaurus/plugin-content-docs',
-      //'docusaurus-lunr-search',
+      require.resolve("@cmfcmf/docusaurus-search-local"),
       {
-        id: 'blog',
-        path: 'blog',
-        routeBasePath: 'blog',
-        //sidebarPath: './sidebarDevops.js',
-        // ... other options
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        language: "en",
       },
     ],
-    [require.resolve("docusaurus-lunr-search"), {
-      enableHighlight: true
-    }]
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
