@@ -102,7 +102,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/FedericoTartarini",
+            href: "https://github.com/ajcborges",
             position: "right",
             className: "header--github-link",
             "aria-label": "GitHub repository",
