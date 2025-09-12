@@ -76,7 +76,7 @@ export default function HomepageHeader() {
               }}
             />
 
-            <div
+            {/* <div
               style={{
                 position: "absolute",
                 zIndex: 200,
@@ -85,7 +85,7 @@ export default function HomepageHeader() {
               }}
             >
               <AnimatedSvg />
-            </div>
+            </div> */}
           </Grid>
           {/* <svg
             width="1000"
