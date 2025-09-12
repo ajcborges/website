@@ -87,7 +87,7 @@ export default function HomepageHeader() {
               <AnimatedSvg />
             </div>
           </Grid>
-          <svg
+          {/* <svg
             width="1000"
             height="1300"
             xmlns="http://www.w3.org/2000/svg"
@@ -107,7 +107,7 @@ export default function HomepageHeader() {
                 ],
               })}
             />
-          </svg>
+          </svg> */}
           <Grid
             item
             xs={12}
@@ -119,14 +119,16 @@ export default function HomepageHeader() {
             <h1 className="hero__title">{siteConfig.title}</h1>
 
             <h2>
-              Senior DevSecOps | Engineer | Photographer & HomeLab Enthusiast
+              Senior DevOps | Engineer | Cloud Security Specialist
             </h2>
+
+                 <h3>Photographer & HomeLab Enthusiast</h3>
 
               <p>
                   I am an engineer with extensive experience in the security field, with a strong focus on cloud engineering. I have developed deep expertise in designing, securing, and managing cloud-based environments.
                   I am passionate about cloud security and continuously stay updated with the latest best practices, emphasizing automation, efficiency, and operational excellence. <br/><br/>
                   Outside of work, I am a HomeLab enthusiast and a passionate photographer, always exploring new ways to experiment with technology and capture the world around me. Cycling fuels my sense of freedom and adventure, while swimming provides a peaceful way to recharge. I am also deeply interested in DevOps, constantly experimenting with new tools and approaches to enhance how we build and manage cloud systems.<br/><br/>
-                  I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/@ajcborges"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
+                  {/* I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/@ajcborges"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience. */}
                 </p>
 
               <Grid
