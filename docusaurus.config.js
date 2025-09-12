@@ -83,15 +83,28 @@ const config = {
   ],
   plugins: [
     [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
+      '@docusaurus/plugin-content-docs',
       {
+        id: 'blog',
+        path: 'blog',
+        routeBasePath: 'blog',
+        // sidebarPath: './sidebarDevops.js',
+        // ... other options
+      },
+    ],
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        // Options for local search
         indexDocs: true,
         indexBlog: true,
         indexPages: true,
-        language: "en",
+        language: 'en',
+        highlightSearchTermsOnTargetPage: true, // replaces enableHighlight
       },
     ],
-  ],
+  ]
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
