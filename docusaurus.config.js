@@ -168,7 +168,7 @@ const config = {
               items: [
                 {
                   label: 'My Journey',
-                  to: '/docs/intro', /** needs to be change to docs/about_me/intro */
+                  to: '/docs/about_me/intro', 
                 },
               ],
             },
