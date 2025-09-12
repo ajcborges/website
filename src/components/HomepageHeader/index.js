@@ -125,14 +125,9 @@ export default function HomepageHeader() {
                 <h3>School of Architecture Design and Planning <br/> The University of Sydney</h3>
 
               <p>
-                  I specialise in indoor environmental quality (IEQ), thermal comfort, human thermophysiology, and
-                  building performance research.
-                  My mission is to develop occupant-centric tools and solutions that improve thermal comfort, health,
-                  productivity, and overall well-being in built environments. <br/><br/>
-                  My research integrates experimental, computational, and field studies to examine how indoor
-                  environments influence human performance and health outcomes.
-                  I am passionate about bridging research
-                  and practice together, hence, I am the main author of several widely used <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"/docs/intro"}>open-source tools</Link>. <br/><br/>
+                  I am an engineer with extensive experience in the security field, with a strong focus on cloud engineering. I have developed deep expertise in designing, securing, and managing cloud-based environments.
+                  I am passionate about cloud security and continuously stay updated with the latest best practices, emphasizing automation, efficiency, and operational excellence. <br/><br/>
+                  Outside of work, I am a HomeLab enthusiast and a passionate photographer, always exploring new ways to experiment with technology and capture the world around me. Cycling fuels my sense of freedom and adventure, while swimming provides a peaceful way to recharge. I am also deeply interested in DevOps, constantly experimenting with new tools and approaches to enhance how we build and manage cloud systems.<br/><br/>
                   I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/@ajcborges"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
                 </p>
 
