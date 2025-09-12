@@ -102,6 +102,18 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
+            href: "https://github.com/FedericoTartarini",
+            position: "right",
+            className: "header--github-link",
+            "aria-label": "GitHub repository",
+          },
+          {
+            className: "navbar__youtube navbar__icon",
+            "aria-label": "YouTube channel",
+            position: "right",
+            href: "https://www.youtube.com/@ajcborges",
+          },
+          {
             type: 'dropdown',
             label: 'Community',
             position: 'right',
@@ -123,18 +135,6 @@ const config = {
                 href: 'https://x.com/ajcborges',
               },
             ],
-          },
-          {
-            href: "https://github.com/ajcborges",
-            position: "right",
-            className: "header--github-link",
-            "aria-label": "GitHub repository",
-          },
-          {
-            className: "navbar__youtube navbar__icon",
-            "aria-label": "YouTube channel",
-            position: "right",
-            href: "https://www.youtube.com/@ajcborges",
           },
         ],
       },
