@@ -119,10 +119,8 @@ export default function HomepageHeader() {
             <h1 className="hero__title">{siteConfig.title}</h1>
 
             <h2>
-              Senior Lecturer | Horizon Fellow | Engineer | YouTuber
+              Senior DevSecOps | Engineer | Photographer & HomeLab Enthusiast
             </h2>
-
-                <h3>School of Architecture Design and Planning <br/> The University of Sydney</h3>
 
               <p>
                   I am an engineer with extensive experience in the security field, with a strong focus on cloud engineering. I have developed deep expertise in designing, securing, and managing cloud-based environments.
