@@ -85,9 +85,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'blog',
-        path: 'blog',
-        routeBasePath: 'blog',
+        id: 'devops',
+        path: 'devops',
+        routeBasePath: 'devops',
         // sidebarPath: './sidebarDevops.js',
         // ... other options
       },
