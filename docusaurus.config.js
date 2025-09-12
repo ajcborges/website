@@ -81,6 +81,22 @@ const config = {
       }),
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      //'docusaurus-lunr-search',
+      {
+        id: 'blog',
+        path: 'blog',
+        routeBasePath: 'blog',
+        //sidebarPath: './sidebarDevops.js',
+        // ... other options
+      },
+    ],
+    [require.resolve("docusaurus-lunr-search"), {
+      enableHighlight: true
+    }]
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
