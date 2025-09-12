@@ -67,8 +67,8 @@ export default function HomepageHeader() {
             }}
           >
             <img
-              alt={"federico tartarini"}
-              src={useBaseUrl("/img/federico.jpg")}
+              alt={"alfredo cedeno"}
+              src={useBaseUrl("/img/alfredo.jpg")}
               style={{
                 borderRadius: "50%",
                 maxWidth: "225px",
@@ -132,8 +132,8 @@ export default function HomepageHeader() {
                   My research integrates experimental, computational, and field studies to examine how indoor
                   environments influence human performance and health outcomes.
                   I am passionate about bridging research
-                  and practice together, hence, I am the main author of several widely used <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"/docs/category/tools"}>open-source tools</Link>. <br/><br/>
-                  I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/c/FedericoTartarini"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
+                  and practice together, hence, I am the main author of several widely used <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"/docs/intro"}>open-source tools</Link>. <br/><br/>
+                  I am also a <Link style={{ color: 'var(--ifm-font-color-base-inverse)', textDecoration: 'underline' }} to={"https://www.youtube.com/@ajcborges"}>YouTuber</Link>, there I share my research and teaching experiences with a global audience.
                 </p>
 
               <Grid
@@ -145,7 +145,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://github.com/FedericoTartarini"
+                  to="https://github.com/ajcborges"
                   style={{ padding: "1rem" }}
                 >
                   <GitHubIcon fontSize={"large"} />
@@ -155,7 +155,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://www.youtube.com/c/FedericoTartarini"
+                  to="https://www.youtube.com/@ajcborges"
                   style={{ padding: "1rem" }}
                 >
                   <YouTubeIcon fontSize={"large"} />
@@ -165,7 +165,7 @@ export default function HomepageHeader() {
               <Grid item>
                 <Link
                   className="button"
-                  to="https://www.linkedin.com/in/federico-tartarini-3991995b/"
+                  to="https://www.linkedin.com/in/alfredocedeno/"
                   style={{ padding: "1rem" }}
                 >
                   <LinkedInIcon fontSize={"large"} />
@@ -185,7 +185,8 @@ export default function HomepageHeader() {
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/about_me/intro"
+                //to="/docs/about_me/intro"
+                to="/docs/intro"
               >
                 About me
               </Link>
