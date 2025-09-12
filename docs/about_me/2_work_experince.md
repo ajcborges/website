@@ -39,4 +39,3 @@ _Melbourne, AU_
 _Jan 2016 - Sep 2018_
 
 - Short description here.
-
