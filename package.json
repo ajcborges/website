@@ -14,14 +14,17 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@cmfcmf/docusaurus-search-local": "^1.2.0",
     "@docusaurus/core": "3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "@mui/material": "^5.16.4",
+    "@mui/icons-material": "^5.16.4",
+    "@react-spring/web": "^9.7.3",
+    "framer-motion": "^11.3.17"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
