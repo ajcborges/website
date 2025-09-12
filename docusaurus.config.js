@@ -102,6 +102,29 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
+            type: 'dropdown',
+            label: 'Community',
+            position: 'right',
+            items: [
+              {
+                  label: 'Medium',
+                  href: 'https://ajcborges.medium.com/',
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/users/11536667/alfredo-cedeno?tab=profile',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/alfredocedeno/',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/ajcborges',
+              },
+            ],
+          },
+          {
             href: "https://github.com/ajcborges",
             position: "right",
             className: "header--github-link",
